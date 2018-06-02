@@ -37,7 +37,20 @@ public class BM_Matrices_dispersas {
         
         System.out.println(" 10) Salir");
     }
-      
+    public  void ConvertirMatrizAForma2(){
+        Lista lista = new Lista();
+        
+        for(int i=0; i<matriz.length;i++){
+            for(int j=0; j<matriz[i].length;j++){
+                if(matriz[i][j]!=0){
+                    lista.AgregarALista(matriz[i][j], i, j);
+                }
+            
+            }
+        }
+        lista.MostrarLista();
+    
+    }
     public void AsignarMatriz(){
         
        System.out.println("Agrege en alto de la matriz en numeros");

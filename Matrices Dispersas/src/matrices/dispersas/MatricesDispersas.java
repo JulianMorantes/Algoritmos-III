@@ -50,6 +50,7 @@ public class MatricesDispersas {
                 case 5: 
                     break;
                 case 6:
+                    logica.ConvertirMatrizAForma2();
                     break;
                     
                 default:
