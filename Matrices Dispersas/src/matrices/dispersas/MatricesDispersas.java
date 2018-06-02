@@ -42,8 +42,10 @@ public class MatricesDispersas {
                     logica.AgregarDatoAMatriz();
                     break;
                 case 3: 
+                    logica.inprimirMatrizIngresada();
                     break;
                 case 4: 
+                    logica.convertirMatrizATripletas();
                     break;
                 case 5: 
                     break;
