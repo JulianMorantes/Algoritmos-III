@@ -52,7 +52,10 @@ public class MatricesDispersas {
                 case 6:
                     logica.ConvertirMatrizAForma2();
                     break;
+                case 7:
+                    logica.VerDiagonalPrincipalMatriz();
                     
+                    break;
                 default:
                     throw new AssertionError();
             }
