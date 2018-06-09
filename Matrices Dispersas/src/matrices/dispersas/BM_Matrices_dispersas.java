@@ -189,10 +189,14 @@ public class BM_Matrices_dispersas {
         }
     }
     
-    public void MultiplicarMatrizPorVector(int dato){
+    public void MultiplicarMatrizPorVector(int dato, int f, int c){
+        int[][] M_Multi = new int [alto][ancho];   
         int resultado = 0; 
         for(int i = 0; i < vector.length; i++){
-            
+            int resMulti = dato + vector[i];
+            resultado += resMulti; 
         } 
+        
+        M_Multi[f][c] = resultado;    
     }
 }
